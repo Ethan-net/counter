@@ -13,9 +13,8 @@ function countClick() {
 
 function save() {
     let countStr = count + "-";
-    // previousCount.innerText += countStr;
+    previousCount.innerText += countStr;
     // console.log(countStr)
-    previousCount.innertext = countStr;
     countDisplay.textContent = 0;
     count = 0
 }
