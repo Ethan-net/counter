@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+}
+.container{
+    border: 1px  solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding: 5vh 5vw;
+    margin: 50px;
+}
+h2{
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+button{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+}
